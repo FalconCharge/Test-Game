@@ -1,0 +1,3 @@
+[submodule "external/WolfEngine"]
+	path = external/WolfEngine
+	url = https://github.com/FalconCharge/wolf-engine.git
