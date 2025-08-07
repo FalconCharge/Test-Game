@@ -9,9 +9,5 @@ add_subdirectory(external/WolfEngine)
 add_executable(MyGame src/main.cpp)
 
 # Link the WolfEngine library to your game
-target_link_libraries(MyGame PRIVATE Wolf)
+target_link_libraries(MyGame PRIVATE WolfEngine)
 
-# Optionally add include directories if not exposed by the engine CMake
-target_include_directories(MyGame PRIVATE
-    external/WolfEngine/include
-)
